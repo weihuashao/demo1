@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>星巴克</title>
+<link rel="stylesheet" type="text/css" href="../common/css/base.css">
+<link rel="stylesheet" type="text/css" href="../common/css/header.css">
+<script type="text/javascript" src="../common/js/jquery.min.js"></script>
+<script type="text/javascript" src="../common/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../common/js/jquery.simplesidebar.js"></script>
+<link rel="stylesheet" type="text/css" href="css/affiliate.css">
+<!--从下边开始写-->
+</head>
+<body style="overflow-x:hidden;">
+<div class="top"><a href="../home/home.html" class="pic"><img src="../common/images/bg_03.gif" width="67" height="64" /></a><p>星享俱乐部 <br /><a href="../subpage/Login sub.html">登录</a>或<a href="../subpage/enter.html">注册</a></p></div>
+<div class="toolbar">
+	<div id="open-sb" class="menu-button menu-left"></div>
+</div>
+<section class="sidebar">
+	<div class="subNav"><h5><a href="../store/store.html">星巴克门店</a></h5>
+	</div>
+	<div class="subNav"><a href="../home/home.html"><h6> 首页</h6></a></div>
+	<div class="subNav"><h6 class="bg">新品推荐</h6></div>
+	<ul class="navContent">
+		<li><a href="../new diet/new diet.html">星巴克焕新食品</a></li>
+        <li><a href="../nts/nts.html">当季新品</a></li>
+	</ul>
+	<div class="subNav"><a href="../club/club.html"><h6>星享俱乐部</h6></a>
+	</div>
+	<div class="subNav"><a href="../apps/apps.html"><h6>星巴克移动应用</h6></a>
+	</div>
+    <div class="subNav"><a href="../gift/gift.html"><h6>星礼卡</h6></a>
+    </div>
+	<div class="subNav"><h6 class="bg">咖啡文化</h6>
+	</div>
+	<ul class="navContent">
+		<li><a href="../cultural/cultural.html">咖啡文化</a></li>
+		<li><a href="../selected/selected.html">星巴克甄选™咖啡</a></li>
+		<li><a href="../brewing/brewing.html">如何冲泡咖啡</a></li>
+	</ul>
+	<div class="subNav"><h6 class="bg">饮品美食</h6>
+	</div>
+	<ul class="navContent">
+		<li><a href="../drink/drink.html">饮品</a></li>
+		<li><a href="../food/food.html">星巴克美食</a></li>
+		<li><a href="../coffee/coffee.html">星巴克咖啡</a></li>
+		<li><a href="../VIA/VIA.html">星巴克VIA免煮咖啡</a></li>
+        <li><a href="../teavana/teavana.html">茶瓦纳™</a></li>
+	</ul>
+	<div class="subNav"><h6 class="bg">关于我们</h6></div>
+	<ul class="navContent">
+		<li><a href="../news/news.html">企业新闻</a></li>
+		<li><a href="../mission/mission.html">我们的使命和价值观</a></li>
+		<li><a href="../duty/duty.html">星巴克责任</a></li>
+		<li><a href="affiliate.html">加入星巴克</a></li>
+        <li><a href="../China/China.html">星巴克在中国</a></li>
+		<li><a href="../Historical review/Historical review.html">历史回顾</a></li>
+	</ul>
+	<div class="subNav"><h6 class="bg">帮助中心</h6></div>
+	<ul class="navContent">
+		<li><a href="../question/question.html">常见问题</a></li>
+		<li><a href="../contact us/contact us.html">联系我们</a></li>
+		<li><a href="../Terms of use/Terms of use.html">使用条款</a></li>
+		<li><a href="../conceal/conceal.html">隐私权政策</a></li>
+	</ul>
+</section>
+<script type="text/javascript">
+$( document ).ready(function() {
+	$( '.sidebar' ).simpleSidebar({
+		settings: {
+			opener: '#open-sb',
+			wrapper: '.wrapper',
+			animation: {
+				duration: 500,
+				easing: 'easeOutQuint'
+			}
+		},
+		sidebar: {
+			align: 'left',
+			width: 270,
+			closingLinks: 'a',
+		}
+	});
+});
+</script>
+
+<script type="text/javascript">
+$(function(){
+$(".subNav").click(function(){
+			// 修改数字控制速度， slideUp(500)控制卷起速度
+			$(this).next(".navContent").slideToggle(500);
+	})	
+})
+</script>
+<div class="nav">
+    	<p>职业中心</p>
+        <p>工作在星巴克中国</p>
+    	<p>有一个机会，连接更广阔的世界，走出属于自己的成功之路</p>
+</div>
+    <div class="banner"></div>
+    <div class="main">
+    	<p>开放职位</p>
+        <div class="mid">
+        	<ul class="clearfix">
+            	<li>
+                	<p>
+                    	我们之所以把我们的公司办公室叫做“支持中心”是因为——我们做的每一件事都是为了支持我们的零售店伙伴，并且为我们服务的社区带去影响。
+                    	<a href="../subpage/join.html"><span>支持中心</span></a>
+                    </p>
+                </li>
+                <li class="right">
+                	<p>
+                    	在星巴克零售店中工作和其他工作完全不同。你可以在每一个和我们的顾客真诚沟通的瞬间，为他们创造美好的一天。
+                    	<a href="../subpage/join.html"><span>零售店</span></a>
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <p>工作在星巴克中国</p>
+        <div class="site">
+    		<h2>职业发展</h2>
+        	<p>星巴克提供非常全面且多样化的职业发展机会，以及极佳的培训和福利条件。您可以随时查找和申请现有的开放职位。</p>
+            <h2>支持中心</h2>
+            <p>在我们的大中华区（上海）支持中心以及各个市场的支持中心，您将可以找到非常多的就职机会。这些就职机会包括了许多不同的部门，包括：市场营销、门店开发、设计、供应链管理、渠道开发、研发/质量、信息技术、财务、法务、公共关系、人力资源等。</p>
+            <h2>零售</h2>
+            <p>店经理和副经理负责管理各门店的每日营运事宜。门店的管理职位为那些具有零售经验的专业人才，或是寻求更多职责的咖啡吧员，提供广泛的职业发展前景。</p>
+            <p style="padding-top:12px;">我们的咖啡吧员是我们业务的基石，咖啡吧员提供的优质服务，和我们的咖啡同样重要，为星巴克的顾客带来超值享受。</p>
+    	</div>
+        <p>全面薪酬</p>
+        <div class="salary">
+        	<p>我们的伙伴，无论全职还是兼职（每周20小时或以上）， 都可以享受一系列的薪酬福利项目。</p>
+            <p>根据工作职位和个人情况的不同，伙伴的全面薪酬福利包括：</p>
+            	<span>不断增长的薪资</span>
+                <span>额外的人寿保险</span>
+                <span>医疗保险</span>
+                <span>股票期权</span>
+                <span>管理奖金计划</span>
+                <span>星巴克商品折扣</span>
+                <span>咖啡饮料伙伴券</span>
+        </div>
+    </div>
+<img src="../selected/images/pic_19.jpg" />
+<iframe src="../common/footer.html" scrolling="no" height="138" marginheight="0" marginwidth="0" frameborder="0" width="100%">
+</iframe>
+</body>
+</html>

@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:#fff;}
+.banner{width:1423px; height:333px; background:url(../images/pic_02.gif) no-repeat center top; border-top:1px solid #ccc;}
+.main{width:1020px; margin:0 auto; padding-top:50px;}
+.main h2{height:100px; background:url(../images/bg_06.gif) no-repeat center bottom; font:22px/100px Microsoft YaHei; text-align:center; color:#525252; margin-bottom:75px;}
+.main ul li{width:425px; float:left;   height:436px;}
+.main ul li a{ display:block; font:12px/26px Microsoft YaHei; color:#525252; text-align:center;   padding-top:201px;}
+.main ul li a:hover{ text-decoration:underline;}
+.main ul li span{font:24px/85px Microsoft YaHei; color:#525252;}
+.no{margin-left:160px;}
+.main .ul_top li:first-child{background:url(../images/pic_06.gif) no-repeat center top;}
+.main .ul_top li:nth-child(2){background:url(../images/pic_08.gif) no-repeat center top;}
+.main .ul_top li:nth-child(3){background:url(../images/pic_12.gif) no-repeat center top;}
+.main .ul_top li:nth-child(4){background:url(../images/pic_13.gif) no-repeat center top;}
+.main .ul_top li:nth-child(5){background:url(../images/pic_16.gif) no-repeat center top;}
+.main .ul_top li:nth-child(6){background:url(../images/pic_17.gif) no-repeat center top;}
+.main .ul_top li:nth-child(7){background:url(../images/pic_20.gif) no-repeat center top;}
+.main .ul_top li:nth-child(8){background:url(../images/pic_21.gif) no-repeat center top;}
+.main .ul_top li:last-child{background:url(../images/pic_24.gif) no-repeat center top;}
+.main .center li:first-child{background:url(../images/pic_27.gif) no-repeat center top;}
+.main .center li:nth-child(2){background:url(../images/pic_30.gif) no-repeat center top;}
+.main .center li:nth-child(3){background:url(../images/pic_34.gif) no-repeat center top;}
+.main .center li:nth-child(4){background:url(../images/pic_37.gif) no-repeat center top;}
+.main .center li:last-child{background:url(../images/pic_42.gif) no-repeat center top;}
+.main .bottom li:first-child{background:url(../images/pic_45.gif) no-repeat center top;}
+.main .bottom li:nth-child(2){background:url(../images/pic_48.gif) no-repeat center top;}
+.main .bottom li:nth-child(3){background:url(../images/pic_53.gif) no-repeat center top;}
+.main .bottom li:nth-child(4){background:url(../images/pic_56.gif) no-repeat center top;}
+.main .bottom li:nth-child(5){background:url(../images/pic_59.gif) no-repeat center top;}
+.main .bottom li:nth-child(6){background:url(../images/pic_60.gif) no-repeat center top;}
+.main .bottom li:last-child{background:url(../images/pic_65.gif) no-repeat center top;}
+

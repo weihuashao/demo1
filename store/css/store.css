@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+.main{ width:1152px; margin:0 auto; margin-top:28px;}
+.main_left{ width:225px; float:left; margin-right:50px;}
+.main_left h2{ font-size:18px; color:#00704a; height:41px; line-height:36px; padding-left:5px; font-family:"宋体";}
+.main_left input{ font-size:15px; line-height:32px; color:#808080; width:186px; float:left; height:32px; border:1px solid #a9a9a9; margin-right:12px;}
+.main_left img{ display:block; float:left; padding-top:6px;}
+.main_right{ width:877px; height:500px; float:left;}

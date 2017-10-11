@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+.main{ width:1024px; height:428px; margin:0 auto; padding-top:105px;}
+.main .left{ width:614px; float:left;}
+.main .left span{ font-size:14px; color:#b89f7a;}
+.main .left h2{ font-size:36px; color:#525252; line-height:85px; margin-bottom:10px;}
+.main .left p{ font-size:18px; color:#707070; line-height:32px; width:540px;}
+.main .right{float:left;}
+
+.Js_box{ width:100%; background:#eeeeee;}
+.Js{ width:1024px; margin:0 auto; padding-bottom:60px;}
+.Js .first{ padding-top:72px; padding-bottom:5px; width:490px; font-size:12px; color:#707070; line-height:25px;}
+.Js .last span{ font-weight:bold; color:#707070;}
+.Js .last{ font-size:12px; color:#707070; line-height:38px;}

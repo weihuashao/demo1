@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+.nav{width:1067px; margin:0 auto; text-align:center;}
+.nav p:nth-child(1){display:block; font-size:12px; color:#b89f7a; height:31px; line-height:31px; padding-top:155px;}
+.nav p:nth-child(2){font-size:36px; color:#525252; height:56px; line-height:56px; font-family:"微软雅黑";}
+.nav p:nth-child(3){font-size:14px; color:#707070; line-height:67px; margin-bottom:65px;}
+
+.banner{width:100%; background:url(../images/pic_kf_02.jpg) no-repeat center center; height:351px;}
+
+.p{width:672px; margin:0 auto; padding-top:80px; padding-bottom:55px;}
+.p p{font-size:16px; color:#707070; line-height:28px; margin-top:10px; font-family:"微软雅黑";}
+
+.banner_two{width:1027px; margin:0 auto; background:url(../images/cf_03.jpg) no-repeat center top; height:156px;}
+
+.cfd{width:672px; margin:0 auto; padding-top:80px; padding-bottom:55px;}
+.cfd>p{font-size:16px; color:#707070; line-height:28px; margin-top:10px; font-family:"微软雅黑";}
+
+.cf{width:1027px; margin:0 auto;}
+.cf .left{width:493px; float:left; padding-top:40px; padding-left:32px;}
+.cf .left h3{font-size:14px; color:#b89f7a; height:25px; line-height:25px;}
+.cf .left h2{font-size:24px; color:#525252; height:65px; line-height:65px; padding-bottom:10px;}
+.cf .left p{font-size:16px; color:#707070; line-height:28px; width:432px; font-family:"微软雅黑";}
+.cf .right{width:500px; float:left;}
+
+.mid{width:672px; margin:0 auto; margin-top:32px; padding-bottom:100px;}
+.mid p{font-size:16px; color:#707070; line-height:28px; margin-top:10px; font-family:"微软雅黑";}
+
+.b_banner{width:100%; background:url(../images/pic_kf_09.jpg) no-repeat center center; margin-bottom:90px; height:237px;}
+
+.m_main{width:100%; background:#f0f0f0; padding-bottom:80px;}
+.main{width:750px; margin:0 auto;}
+.main>h2{font-size:12px; color:#b89f7a; line-height:74px; margin-top:52px; width:80px; padding-left:195px;}
+.main li{margin-bottom:60px;}
+.main img{display:block; float:left;}
+.main p{float:left; width:545px; padding-left:42px; line-height:32px;}
+.main p:hover{text-decoration:underline;}
+.main p>a{font-size:14px; color:#707070;}
+.main p span a{display:block; font-size:26px; color:#707070; line-height:84px;}

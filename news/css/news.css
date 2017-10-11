@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:#fff;}
+.banner{width:100%; height:333px; background:url(../images/pic_02.gif) no-repeat center top; border-top:1px solid #ccc;}
+.main{width:1171px; margin:0px auto;}
+.main ul li{padding:80px 0px 80px 0px;  border-bottom:1px solid #ccc;}
+.main ul li a{ display:block;  height:305px; padding-left:500px;}
+.main ul li a p:first-child{font:10px/22px Microsoft YaHei; color:#707070;}
+.main ul li a p:nth-child(2){font:28px/68px Microsoft YaHei; color:#707070; margin-bottom:22px;}
+.main ul li a p:last-child{font:16px/30px Microsoft YaHei; color:#707070; }
+.main ul li:first-child{ background:url(../images/pic_06.gif) no-repeat 15px 78px;}
+.main ul li:nth-child(2){ background:url(../images/pic_09.gif) no-repeat 15px 78px;}
+.main ul li:nth-child(3){ background:url(../images/pic_11.gif) no-repeat 15px 78px;}
+.main ul li:nth-child(4){ background:url(../images/pic_13.gif) no-repeat 15px 78px;}
+.main ul li:nth-child(5){ background:url(../images/pic_15.gif) no-repeat 15px 78px;}
+.main ul li:last-child{ background:url(../images/pic_17.gif) no-repeat 15px 78px;}
+.main ul li a:hover{ text-decoration:underline;}
+.main p a{ display:inline-block; width:34px; height:40px; font:12px/40px Microsoft YaHei; color:#b89f7a; border:1px solid #ccc; margin-left:5px;}
+.main>p{text-align:center; margin:130px 0px 130px 0px;}
+.main p a:hover{background:#007149; color:#fff;}
+a.hover{background:#007149; color:#fff;}

@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+.main{ width:1033px; height:428px; margin:0 auto; padding-top:105px;}
+.main .left{ width:757px; float:left;}
+.main .left span{ font-size:14px; color:#b89f7a;}
+.main .left h2{ font-size:36px; color:#525252; line-height:85px; margin-bottom:10px;}
+.main .left p{ font-size:18px; color:#707070; line-height:32px; width:540px;}
+.main .right{ float:left; padding-top:60px;}
+

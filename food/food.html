@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>星巴克</title>
+<link rel="stylesheet" type="text/css" href="../common/css/base.css">
+<link rel="stylesheet" type="text/css" href="../common/css/header.css">
+<script type="text/javascript" src="../common/js/jquery.min.js"></script>
+<script type="text/javascript" src="../common/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../common/js/jquery.simplesidebar.js"></script>
+<link rel="stylesheet" type="text/css" href="css/food.css">
+<!--从下边开始写-->
+</head>
+<body style="overflow-x:hidden;">
+<div class="top"><a href="../home/home.html" class="pic"><img src="../common/images/bg_03.gif" width="67" height="64" /></a>
+  <p>星享俱乐部 <br />
+    <a href="../subpage/Login sub.html">登录</a>或<a href="../subpage/enter.html">注册</a></p></div>
+<div class="toolbar">
+  <div id="open-sb" class="menu-button menu-left"></div>
+</div>
+<section class="sidebar">
+  <div class="subNav">
+    <h5><a href="../store/store.html">星巴克门店</a></h5>
+  </div>
+  <div class="subNav"><a href="../home/home.html">
+    <h6> 首页</h6>
+    </a></div>
+  <div class="subNav">
+    <h6 class="bg">新品推荐</h6>
+  </div>
+  <ul class="navContent">
+    <li><a href="../new diet/new diet.html">星巴克焕新食品</a></li>
+    <li><a href="../nts/nts.html">当季新品</a></li>
+  </ul>
+  <div class="subNav"><a href="../club/club.html">
+    <h6>星享俱乐部</h6>
+    </a> </div>
+  <div class="subNav"><a href="../apps/apps.html">
+    <h6>星巴克移动应用</h6>
+    </a> </div>
+  <div class="subNav"><a href="../gift/gift.html">
+    <h6>星礼卡</h6>
+    </a> </div>
+  <div class="subNav">
+    <h6 class="bg">咖啡文化</h6>
+  </div>
+  <ul class="navContent">
+    <li><a href="../cultural/cultural.html">咖啡文化</a></li>
+    <li><a href="../selected/selected.html">星巴克甄选™咖啡</a></li>
+    <li><a href="../brewing/brewing.html">如何冲泡咖啡</a></li>
+  </ul>
+  <div class="subNav">
+    <h6 class="bg">饮品美食</h6>
+  </div>
+  <ul class="navContent">
+    <li><a href="../drink/drink.html">饮品</a></li>
+    <li><a href="food.html">星巴克美食</a></li>
+    <li><a href="../coffee/coffee.html">星巴克咖啡</a></li>
+    <li><a href="../VIA/VIA.html">星巴克VIA免煮咖啡</a></li>
+    <li><a href="../teavana/teavana.html">茶瓦纳™</a></li>
+  </ul>
+  <div class="subNav">
+    <h6 class="bg">关于我们</h6>
+  </div>
+  <ul class="navContent">
+    <li><a href="../news/news.html">企业新闻</a></li>
+    <li><a href="../mission/mission.html">我们的使命和价值观</a></li>
+    <li><a href="../duty/duty.html">星巴克责任</a></li>
+    <li><a href="../affiliate/affiliate.html">加入星巴克</a></li>
+    <li><a href="../China/China.html">星巴克在中国</a></li>
+    <li><a href="../Historical review/Historical review.html">历史回顾</a></li>
+  </ul>
+  <div class="subNav">
+    <h6 class="bg">帮助中心</h6>
+  </div>
+  <ul class="navContent">
+    <li><a href="../question/question.html">常见问题</a></li>
+    <li><a href="../contact us/contact us.html">联系我们</a></li>
+    <li><a href="../Terms of use/Terms of use.html">使用条款</a></li>
+    <li><a href="../conceal/conceal.html">隐私权政策</a></li>
+  </ul>
+</section>
+<script type="text/javascript">
+$( document ).ready(function() {
+	$( '.sidebar' ).simpleSidebar({
+		settings: {
+			opener: '#open-sb',
+			wrapper: '.wrapper',
+			animation: {
+				duration: 500,
+				easing: 'easeOutQuint'
+			}
+		},
+		sidebar: {
+			align: 'left',
+			width: 270,
+			closingLinks: 'a',
+		}
+	});
+});
+</script> 
+<script type="text/javascript">
+$(function(){
+$(".subNav").click(function(){
+			// 修改数字控制速度， slideUp(500)控制卷起速度
+			$(this).next(".navContent").slideToggle(500);
+	})	
+})
+</script> 
+<!--从这一部分开始写-->
+<div class="banner"></div>
+<div class="main">
+  <h2>手工调制浓缩咖啡</h2>
+  <ul class="breakfast clearfix">
+    <li><a href="../subpage/potency.html"><span>蓝莓麦芬</span><br />
+      顶层口感酥脆，内部松软</a></li>
+    <li class="no"><a href="../subpage/potency.html"><span>巧克力麦芬</span><br />
+      巧克力豆质感细腻</a></li>
+    <li><a href="../subpage/potency.html"><span>全麦核桃麦芬</span><br />
+      口感松软、有弹性</a></li>
+    <li class="no"><a href="../subpage/potency.html"><span>巧克力丹麦酥</span><br />
+      采用进口高品质黄油制作</a></li>
+    <li><a href="../subpage/potency.html"><span> 蓝莓丹麦酥</span><br />
+      甄选进口高品质黄油制作</a></li>
+    <li class="no"><a href="../subpage/potency.html"><span>法式可颂</span><br />
+      采用法国进口高品质黄油制作</a></li>
+    <li><a href="../subpage/potency.html"><span>火腿芝士可颂</span><br />
+      使用整片烟熏火腿肉与整片芝士</a></li>
+    <li class="no"><a href="../subpage/potency.html"><span>蜜提司康</span><br />
+      松软酥脆、有明显黄油香气</a></li>
+  </ul>
+  <h2>午餐</h2>
+  <ul class="lunch clearfix">
+    <li><a href="../subpage/potency.html"><span>火鸡烟熏火腿烧烤酱三明治</span><br />
+      法式面包外脆里嫩，鲜香可口</a></li>
+    <li class="no"><a href="../subpage/potency.html"><span>烤牛肉甜椒三明治</span><br />
+      馅料丰富，鲜香满溢</a></li>
+  </ul>
+  <h2>下午茶</h2>
+  <ul class="afternoon_tea clearfix">
+    <li><a href="../subpage/potency.html"><span>蓝莓芝士蛋糕</span><br />
+      采用进口高品质奶油芝士制作</a></li>
+    <li class="no"><a href="../subpage/potency.html"><span>纽约芝士蛋糕</span><br />
+      口味细腻、奶香味浓郁</a></li>
+    <li><a href="../subpage/potency.html"><span>抹茶红豆芝士蛋糕</span><br />
+      抹茶粉清香怡人</a></li>
+    <li class="no"><a href="../subpage/potency.html"><span>法式浓情巧克力蛋糕</span><br />
+      可可蛋糕细腻柔软</a></li>
+    <li><a href="../subpage/potency.html"><span>特浓巧克力布朗尼</span><br />
+      表面有大块黑巧克力块和核桃碎</a></li>
+    <li class="no"><a href="../subpage/potency.html"><span>法式马卡龙</span><br />
+      正宗法式传统工艺制作</a></li>
+    <li><a href="../subpage/potency.html"><span>经典提拉米苏</span><br />
+      正宗意式配方</a></li>
+    <li class="no"><a href="../subpage/potency.html"><span>美式巧克力块曲奇风味饼</span><br />
+      口感柔韧富有嚼劲</a></li>
+    <li><a href="../subpage/potency.html"><span>美式蜜提燕麦曲奇风味饼</span><br />
+      果香浓郁，高品质燕麦</a></li>
+  </ul>
+  <h2>其他美食</h2>
+  <ul class="Other clearfix">
+    <li><a href="../subpage/chocolate_sub.html"><span>薄荷味口香糖（无糖）</span><br />
+      冰霜强劲的薄荷风味</a></li>
+    <li class="no"><a href="../subpage/chocolate_sub.html"><span>薄荷味硬糖（无糖）</span><br />
+      冰霜强劲的清新风味</a></li>
+    <li><a href="../subpage/chocolate_sub.html"><span>棒棒糖</span><br />
+      原装法国进口的水果风味棒棒糖</a></li>
+    <li class="no"><a href="../subpage/chocolate_sub.html"><span>太妃榛果牛轧糖</span><br />
+      富有嚼劲的榛果风味牛轧糖</a></li>
+    <li><a href="../subpage/chocolate_sub.html"><span>腰果</span><br />
+      特有的坚果香味充斥着你的味蕾</a></li>
+    <li class="no"><a href="../subpage/chocolate_sub.html"><span>混合果仁果脯</span><br />
+      品种繁多，回味香浓</a></li>
+    <li><a href="../subpage/chocolate_sub.html"><span>原味意式硬饼</span><br />
+      丰富口感，回味格外香甜</a></li>
+    <li class="no"><a href="../subpage/chocolate_sub.html"><span>咖啡意式硬饼</span><br />
+      充满着浓郁的咖啡香味</a></li>
+    <li><a href="../subpage/chocolate_sub.html"><span>巧克力意式硬饼</span><br />
+      浓郁巧克力风味伴随果仁粒</a></li>
+    <li class="no"><a href="../subpage/chocolate_sub.html"><span>英伦风味黄油饼干</span><br />
+      口感厚实浓郁酥脆</a></li>
+    <li><a href="../subpage/chocolate_sub.html"><span>咖啡味蛋卷</span><br />
+      有别于传统的口感和心意</a></li>
+  </ul>
+</div>
+<iframe src="../common/footer.html" scrolling="no" height="138" marginheight="0" marginwidth="0" frameborder="0" width="100%"> </iframe>
+</body>
+</html>

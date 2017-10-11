@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:#f0f0f0;}
+.banner{width:100%;  background:url(../images/bg.jpg) no-repeat center center; }
+.banner .box{ background:rgba(0,0,0,0.7); height:651px; padding-top:129px;}
+.banner .box h2{ color:#b0a997; text-align:center; font:12px/56px Microsoft YaHei;}
+.banner .box p:nth-child(2){ font:36px/44px Microsoft YaHei; color:#fff; text-align:center; margin-bottom:30px;}
+.banner .box p:last-child{font:16px/32px Microsoft YaHei; color:#fff; text-align:center;}      
+.main{width:736px; margin:106px auto;}
+.main ul li{ height:154px; margin-bottom:61px;}
+.main ul li a{ display:block; padding-left:184px;}
+.main ul li a span{ font:26px/104px Microsoft YaHei; color:#707070; }
+.main ul li a p{ font:14px/22px Microsoft YaHei; color:#707070; }
+.main ul li:first-child{ background:url(../images/pic_03.gif) no-repeat left top;}
+.main ul li:nth-child(2){ background:url(../images/pic_06.gif) no-repeat left top;}
+.main ul li:nth-child(3){ background:url(../images/img_03.gif) no-repeat left top;}
+.main ul li:nth-child(4){ background:url(../images/pic_08.gif) no-repeat left top;}
+.main ul li:nth-child(5){ background:url(../images/pic_10.gif) no-repeat left top;}
+.main ul li:last-child{ background:url(../images/pic_12.gif) no-repeat left top;}
+.main ul li a:hover{ text-decoration:underline;}

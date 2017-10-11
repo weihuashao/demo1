@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:#f5f5f5;}
+.banner{width:100%; height:630px; background:url(../images/bg.jpg) no-repeat center center; position:relative;}
+.banner a{ display:block; width:156px; height:54px; font:14px/54px Microsoft YaHei; color:#fff; font-weight:bold; text-align:center; background:#aa8e67; position:absolute; left:50%; bottom:10%; margin-left:-78px;}
+.banner a:hover{background:#8f7755;}
+.club{height:531px; width:100%; background:#1f1f1f; text-align:center;}
+.club h2{ margin-top:83px; font:26px/46px Microsoft YaHei; color:#fff; font-weight:bold;}
+.club p:nth-child(3){font:16px/36px Microsoft YaHei; color:#999999; }
+.club p:last-child{height:44px; margin-top:50px;}
+.club p a{ display:inline-block; width:100px; height:42px; border:1px solid #a98e67; font:12px/42px Microsoft YaHei; color:#a98e67; margin-right:31px; text-align:center;}
+.club p a:hover{ background:#a98e67; color:#fff;}
+.app{width:100%; background:#dbdbdb;}
+.app_box{width:1165px; height:513px; margin:0 auto; position:relative; padding:195px 0px 0px 100px;}
+.app_box img{ display:block; position:absolute; right:0; bottom:75px; }
+.app_box h2{font:12px/48px Microsoft YaHei; color:#a98e67;}
+.app_box p:nth-child(3){ font:24px/35px Microsoft YaHei; color:#3d3d3d; margin-bottom:127px;}
+.app_box p a{ display:inline-block; width:125px; height:42px; font:12px/42px Microsoft YaHei; color:#a98e67; border:1px solid #a98e67; margin-right:31px; text-align:center;}
+.app_box p a:hover{ background:#a98e67; color:#fff;}
+.box{width:100%; background:#8f7755;}
+.box .left{float:left; width:50%; height:346px; background:url(../images/bg_4.jpeg) no-repeat right center; padding-top:282px;}
+.box .right{float:left; width:50%; height:346px; background:url(../images/bg_5.jpg) no-repeat left center; padding-top:282px;}
+.box p{ font:12px/30px Microsoft YaHei; color:#a47a48; text-align:center;}
+.box a{ font:26px/44px Microsoft YaHei; color:#fff; text-align:center; display:block;}
+.nav_1{width:1265px; margin:0 auto;}
+.nav_1 p:first-child{ font:12px/30px Microsoft YaHei; color:#a47a48; text-align:center;}
+.nav_1 h2{height:86px; background:url(../images/bg_06.gif) no-repeat center bottom; font:22px/86px Microsoft YaHei; text-align:center; color:#525252;}
+.nav_1 p:nth-child(3){ font:16px/76px Microsoft YaHei; text-align:center;}
+.nav_1 .ul{ margin-top:42px; position:relative;}
+.nav_1 ul li{float:left; margin-left:15px;}
+.nav_1 .ul div{ padding-top:33px; height:93px; text-align:center;}
+.nav_1 .ul div p{ width:10px; height:10px; border-radius:5px; background:#8f8f8f; display:inline-block; margin-right:10px; cursor:pointer;}
+.nav_1 .ul div .btn{ background:#ae9061;}
+#two{ position:absolute; left:0; top:0px; display:none;}
+.last_box{width:100%;  height:548px; background:url(../images/bg_last.png) no-repeat left center,#060608;}
+.last{width:735px; margin:0 auto;   padding-left:528px; padding-top:150px;}
+.last p:first-child{ font:12px/30px Microsoft YaHei; color:#a47a48; text-align:center;}
+.last p:nth-child(2){ font:22px/34px Microsoft YaHei; color:#707070; text-align:center;}
+.last p:last-child{ margin-top:30px; text-align:center;}
+.last p a{ display:inline-block; width:125px; height:42px; font:12px/42px Microsoft YaHei; color:#a98e67; border:1px solid #a98e67; margin-right:31px; text-align:center;}
+.last p a:hover{ background:#a98e67; color:#fff;}
+

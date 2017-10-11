@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+.main{width:100%; height:482px; background:url(../../teavana/images/img_02.gif) no-repeat center center;}
+.mid{width:100%; height:434px; background:url(../../teavana/images/img_04.gif) no-repeat center center;}
+.mid p{width:734px; height:222px; margin: auto auto; text-align:center; padding-top:104px; font-size:18px; color:#481600; line-height:38px;}
+.mid-one{width:100%; height:446px; background:url(../../teavana/images/img_05.gif) no-repeat center center;}
+.bottom{width:100%; height:1906px; background:url(../../teavana/images/img_06.gif) no-repeat center center; position:relative;}
+.bottom .one{width:460px; height:310px; position:absolute; left:294px; top:108px;}
+.bottom .one h1{width:460px; font-size:26px; color:#ca6f67; line-height:46px;}
+.bottom .one p{width:454px; font-size:18px; color:#ca391b; line-height:40px; padding-bottom:52px;}
+.bottom .one h2{width:460px; font-size:12px; color:#000;}
+.bottom .two{width:438px; height:350px; position:absolute; left:692px; top:594px;}
+.bottom .two h1{width:421px; font-size:26px; color:#dc8005; line-height:40px;}
+.bottom .two p{width:438px; font-size:18px; color:#da8005; line-height:36px; padding-bottom:42px; text-align:right;}
+.bottom .two h2{width:421px; font-size:12px; color:#000; text-align:right;}
+.bottom .three{width:306px; height:166px; position:absolute; left:260px; top:1100px;}
+.bottom .three h1{width:306px; font-size:26px; color:#481600; line-height:40px;}
+.bottom .three p{width:306px; font-size:18px; color:#481600; line-height:36px; padding-bottom:42px;}
+.bottom .four{width:392px; height:188px; position:absolute; left:720px; top:1386px;}
+.bottom .four p{width:392px; font-size:18px; color:#481600; line-height:36px; text-align:center;}
+.bottom a{position:absolute; left:640px; top:1754px; font-size:18px; color:#481600;  width:76px; height:30px; border-top:2px solid #481600; font-weight:bold; line-height:30px;}
+.footer{width:100%; height:140px; background:url(../../teavana/images/imge_26.gif) repeat-x; margin:0 auto;}
+.footer p{width:230px; height:58px; color:#978888; padding-left:140px; padding-top:40px; line-height:18px;}

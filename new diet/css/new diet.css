@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+.warpStarbucks{width:100%; background:url(../images/nts_02.gif) no-repeat; height:521px; margin-top:10px;}
+.warpstore{width:100%; background:#f0f0f0;}
+.store{width:1200px; margin:0 auto; padding-top:108px; padding-bottom:102px;}
+.store p{font-size:17px; font-family:"微软雅黑"; color:#000000; line-height:32px; text-align:center;}
+.store p:nth-child(2){margin-top:38px;}
+
+.warpmain{width:100%; background:#fff;}
+.main{width:1200px; margin:0 auto;}
+.main .likeness{padding-top:100px;}
+.main .likeness div{float:left; width:470px; padding-top:50px; padding-left:35px; padding-right:51px;}
+.main .likeness div h1{font-size:28px; font-family:"微软雅黑"; color:#525252; line-height:44px;}
+.main .likeness div p{font-size:17px; font-family:"微软雅黑"; color:#707070; line-height:32px;}
+.main .likeness .one{float:left; width:585px; padding-left:30px;}
+
+.main .close{padding-top:100px; padding-bottom:100px;}
+.main .close div{float:left; width:469px; padding-left:35px; padding-right:52px; padding-top:50px;}
+.main .close div h1{font-size:28px; font-family:"微软雅黑"; color:#525252; line-height:44px;}
+.main .close div p{font-size:17px; font-family:"微软雅黑"; color:#707070; line-height:32px;}
+.main .close .two{float:left; width:585px;}

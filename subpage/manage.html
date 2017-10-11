@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>星巴克</title>
+<link rel="stylesheet" type="text/css" href="../common/css/base.css">
+<link rel="stylesheet" type="text/css" href="../common/css/header.css">
+<script type="text/javascript" src="../common/js/jquery.min.js"></script>
+<script type="text/javascript" src="../common/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../common/js/jquery.simplesidebar.js"></script>
+<link rel="stylesheet" type="text/css" href="css/manage.css">
+<!--从下边开始写-->
+</head>
+<body style="overflow-x:hidden;">
+<div class="top"><a href="../home/home.html" class="pic"><img src="../common/images/bg_03.gif" width="67" height="64" /></a><p>星享俱乐部 <br /><a href="Login sub.html">登录</a>或<a href="enter.html">注册</a></p></div>
+<div class="toolbar">
+	<div id="open-sb" class="menu-button menu-left"></div>
+</div>
+<section class="sidebar">
+	<div class="subNav"><h5><a href="../store/store.html">星巴克门店</a></h5>
+	</div>
+	<div class="subNav"><a href="../home/home.html"><h6> 首页</h6></a></div>
+	<div class="subNav"><h6 class="bg">新品推荐</h6></div>
+	<ul class="navContent">
+		<li><a href="../new diet/new diet.html">星巴克焕新食品</a></li>
+        <li><a href="../nts/nts.html">当季新品</a></li>
+	</ul>
+	<div class="subNav"><a href="../club/club.html"><h6>星享俱乐部</h6></a>
+	</div>
+	<div class="subNav"><a href="../apps/apps.html"><h6>星巴克移动应用</h6></a>
+	</div>
+    <div class="subNav"><a href="../gift/gift.html"><h6>星礼卡</h6></a>
+    </div>
+	<div class="subNav"><h6 class="bg">咖啡文化</h6>
+	</div>
+	<ul class="navContent">
+		<li><a href="../cultural/cultural.html">咖啡文化</a></li>
+		<li><a href="../selected/selected.html">星巴克甄选™咖啡</a></li>
+		<li><a href="../brewing/brewing.html">如何冲泡咖啡</a></li>
+	</ul>
+	<div class="subNav"><h6 class="bg">饮品美食</h6>
+	</div>
+	<ul class="navContent">
+		<li><a href="../drink/drink.html">饮品</a></li>
+		<li><a href="../food/food.html">星巴克美食</a></li>
+		<li><a href="../coffee/coffee.html">星巴克咖啡</a></li>
+		<li><a href="../VIA/VIA.html">星巴克VIA免煮咖啡</a></li>
+        <li><a href="../teavana/teavana.html">茶瓦纳™</a></li>
+	</ul>
+	<div class="subNav"><h6 class="bg">关于我们</h6></div>
+	<ul class="navContent">
+		<li><a href="../news/news.html">企业新闻</a></li>
+		<li><a href="../mission/mission.html">我们的使命和价值观</a></li>
+		<li><a href="../duty/duty.html">星巴克责任</a></li>
+		<li><a href="../affiliate/affiliate.html">加入星巴克</a></li>
+        <li><a href="../China/China.html">星巴克在中国</a></li>
+		<li><a href="../Historical review/Historical review.html">历史回顾</a></li>
+	</ul>
+	<div class="subNav"><h6 class="bg">帮助中心</h6></div>
+	<ul class="navContent">
+		<li><a href="../question/question.html">常见问题</a></li>
+		<li><a href="../contact us/contact us.html">联系我们</a></li>
+		<li><a href="../Terms of use/Terms of use.html">使用条款</a></li>
+		<li><a href="../conceal/conceal.html">隐私权政策</a></li>
+	</ul>
+</section>
+<script type="text/javascript">
+$( document ).ready(function() {
+	$( '.sidebar' ).simpleSidebar({
+		settings: {
+			opener: '#open-sb',
+			wrapper: '.wrapper',
+			animation: {
+				duration: 500,
+				easing: 'easeOutQuint'
+			}
+		},
+		sidebar: {
+			align: 'left',
+			width: 270,
+			closingLinks: 'a',
+		}
+	});
+});
+</script>
+
+<script type="text/javascript">
+$(function(){
+$(".subNav").click(function(){
+			// 修改数字控制速度， slideUp(500)控制卷起速度
+			$(this).next(".navContent").slideToggle(500);
+	})	
+})
+</script>
+<!--从这一部分开始写-->
+<div class="background">
+   <div class="main">
+      <h2>管理您的发票</h2>
+      <div class="clearfix">
+        <p><a href="manage.html" class="onclick">在线申请发票</a></p>
+        <p><a href="manage_1.html">发票处理进度查询</a></p>
+      </div>
+      <span>输入您的购卡小票信息</span>
+      <p>请准确输入您购卡小票上的8或10位销售单号和6位授权码，以确保开票成功。</p>
+      <form>
+         <p>
+            <label for="number">销售单号</label>
+            <input type="text" id="number">
+         </p>
+         <p>
+            <label for="number">授权码</label>
+            <input type="text" id="number">
+         </p>
+         <div class="clear"></div>
+         <p class="receipt"><a href="#">添加收据</a></p>
+         <p>
+            <input type="submit" value="下一步">
+         </p>
+      </form>
+      <span style="font-size:14px;">温馨提示</span>
+      <p>1.一张购卡小票对应一张发票，支持最多十张购卡小票合开一张发票。</p>
+      <p>2.发票金额等于购卡小票全额。</p>
+      <p>3.请使用同一城市购卡小票上的销售单号申请合开发票，不同城市的购卡小票不可合并开发票。</p>
+      <p>4.在线申请发票的有效期为购买星礼卡后30日内，请核对购卡小票上的日期并确认其在有效期内。</p>
+   </div>
+</div>
+<iframe src="../common/footer.html" scrolling="no" height="138" marginheight="0" marginwidth="0" frameborder="0" width="100%">
+</iframe>
+</body>
+</html>

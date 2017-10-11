@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:#f0f0f0;}
+.banner{width:100%; background:url(../../cultural/images/pic_02.jpg) no-repeat center center; height:278px;}
+.main{width:750px; margin:0 auto; margin-bottom:80px;}
+.main>h2{font-size:12px; color:#b89f7a; line-height:74px; margin-top:52px; width:80px; padding-left:195px;}
+.main li{margin-bottom:60px;}
+.main img{display:block; float:left;}
+.main p{float:left; width:545px; padding-left:42px; line-height:32px;}
+.main p:hover{text-decoration:underline;}
+.main p>a{font-size:14px; color:#707070;}
+.main p span a{display:block; font-size:26px; color:#707070; line-height:84px;}
+

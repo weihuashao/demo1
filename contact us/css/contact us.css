@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:#fff;}
+.main{width:500px; margin:0 auto; padding-top:81px; }
+.main span{ display:block; font-size:12px; height:32px; color:#b89f7a; font-family:Microsoft YaHei;  text-align:center;}
+.main h2{ font-size:34px; color:#525252; height:107px;  text-align:center;}
+.main p{height:92px; padding-top:32px; font:12px/30px Microsoft YaHei; border-top:1px solid #dddddd; color:#777777;}
+.main p:nth-child(3){ background:url(../images/pic_03.gif) no-repeat right center;}
+.main p:nth-child(4){ background:url(../images/pic_06.gif) no-repeat right center;}
+.main p:nth-child(5){ background:url(../images/pic_08.gif) no-repeat right center;}
+.main p:last-child{padding-top:21px; height:110px; color:#a3a3a3;}

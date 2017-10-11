@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+.background{width:100%; height:879px; background:url(../images/Login%20sub_01.jpg) repeat-x center top, url(../images/Login%20sub_02.jpg) no-repeat right 4px; padding-top:95px; padding-bottom:101px;}
+.background .main{width:740px; margin:0 auto;}
+.background .main h2{height:145px; line-height:145px; text-align:center; font-size:42px; color:#4e4e4e; background:url(../images/manage_01.jpg) no-repeat center bottom; margin-bottom:50px;}
+.background .main div p{float:left; width:370px; height:40px; line-height:40px; text-align:center;}
+.background .main div p a{ display:block; background:#f2f2f2; color:#575757;}
+.background .main div p .onclick{background:#b89f7a; color:#ffffff;}
+
+.background .main form{margin-top:26px; margin-bottom:62px; padding-top:57px; padding-left:89px; height:276px; background:#f2f2f2;}
+.background .main form p:nth-child(1),.background .main form p:nth-child(2){float:left; margin-bottom:19px;}
+.background .main form p label{width:253px; height:45px; line-height:45px; font-size:14px; color:#4e4e4e; margin-right:16px;}
+.background .main form p input[type="text"]{width:251px; height:40px; line-height:40px; border:1px solid #dddddd;}
+.background .main form p.receipt{padding-left:42px; height:60px; line-height:60px; margin-bottom:9px; position:relative;}
+.background .main form p.receipt a{font-size:16px; color:#c49f7a; display:inline-block; padding-top:35px; padding-left:20px; background:url(../images/manage_02.jpg) no-repeat left 55px;}
+
+.background .main span{display:block; height:56px; line-height:56px; font-weight:bold; font-size:16px; color:#4e4e4e;}
+.background .main>p{height:22px; line-height:22px; font-size:12px; color:#4e4e4e;}
+.background .main form p:last-child{padding-left:208px;}
+.background .main form p:last-child input[type="submit"]{width:142px; height:46px; border:2px solid #b89f7a; background:#f2f2f2; font-size:12px; color:#b89f7a; cursor:pointer;}

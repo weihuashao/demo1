@@ -1,0 +1,26 @@
+@charset "utf-8";
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0; text-decoration:none;}
+body{font:12px/180% Arial, Helvetica, sans-serif, "微软雅黑";}
+h5,h6{font-size:16px;}
+
+.top{ width:100%; height:76px; background:#FFF;  position:relative; border-top:3px solid #ddded9; text-align:center; padding-top:20px;}
+.top p{ position: absolute; top:30px; right:20px; color:#463f37; font-size:16px; line-height:22px;}
+.top p a{color:#ad9f84; font-size:14px; padding:3px; display:inline-block;}
+section{margin:4em 0;}
+.toolbar{position:fixed; top:0; left:20px; right:0;  line-height:68px; width:270px; }
+.menu-button{position:relative; margin:20px; height:30px; width:30px; cursor:pointer; color:#333;}
+.menu-button:before{content:"菜单"; position:absolute; top:10px; right:3px; border-bottom:17px double #4d4d4d;border-top:6px solid #4d4d4d ;width:30px; height:5px; text-align:center; }
+.menu-left{float:left;}
+.sidebar{margin:0; padding-top:1em; color:white; background-color:#292929; width:270px; }
+.sidebar h5{height:68px; color:#be9a76; line-height:68px; text-indent:16px; border-bottom:1px solid; margin-bottom:10px;}
+.sidebar h6{padding-left:20px; height:47px; line-height:47px; color:#fff;}
+.sidebar li{padding-left:25px;line-height:32px; height:32px; }
+.sidebar li a{ display:block; color:#adadad; font-size:14px;}
+.sidebar a:hover{color:#b89f7a;}
+.sidebar h6:hover{color:#b89f7a;}
+.subNav a{color:#fff;}
+.bg{ background:url(../images/img_03.gif) no-repeat right center; margin-right:10px;}
+/*主要样式*/
+.subNav{cursor:pointer;}
+.navContent{display:none;color:#999;}

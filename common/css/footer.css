@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+.footer{width:100%; background:#292929;}
+.footer p:nth-child(1){width:260px; font-size:12px; color:#a3a397; line-height:18px; padding-top:39px; margin-left:5%;}
+.footer p:nth-child(2){width:260px; font-size:12px; color:#a3a397; line-height:18px; padding-bottom:42px; margin-left:5%; text-indent:21px; background:url(../images/pic_1.jpg) no-repeat 0px 0px;}
+
+

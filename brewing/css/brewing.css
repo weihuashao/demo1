@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:#f0f0f0;}
+.banner{width:1423px; height:333px; background:url(../images/img_02.gif) no-repeat center top; border-top:1px solid #ccc;}
+.main{width:766px; margin:100px auto;}
+.main ul li{ margin-bottom:60px;  height:155px;}
+.main ul li a{ display:block; padding-left:186px; font:14px/24px Microsoft YaHei; color:#707070;}
+.main ul li a:hover{text-decoration:underline;}
+.main ul li span{font-size:28px; line-height:102px;}
+.main ul li:first-child{ background:url(../images/img_06.gif) no-repeat left top;}
+.main ul li:nth-child(2){background:url(../images/img_09.gif) no-repeat left top;}
+.main ul li:nth-child(3){background:url(../images/img_11.gif) no-repeat left top;}
+.main ul li:last-child{background:url(../images/img_13.gif) no-repeat left top;}

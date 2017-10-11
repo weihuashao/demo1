@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+.warprecall{width:100%;}
+.recall{width:1026px; margin:0 auto; padding-top:125px; padding-bottom:85px;}
+.recall h1{font-size:12px; color:#b89f7a; text-align:center;}
+.recall h2{font-size:35px; color:#525252; text-align:center; padding-top:21px; padding-bottom:29px;} 
+.recall p{font-size:15px; color:#707070; line-height:28px; text-align:center; font-family:"微软雅黑";}
+
+.picture{width:100%; background:url(../images/images_02.gif) no-repeat; height:352px;}
+
+.warphistory{width:100%; background:#eeeeee;}
+.history{width:1026px; margin:0 auto; padding-top:90px; padding-bottom:103px;`}
+.history .left{float:left; width:324px; padding-right:27px;}
+.history .left div{background:#fff; padding-top:42px; padding-bottom:41px; text-align:center; border:1px solid #dddddd;}
+.history .left div h1{font-size:36px; color:#525252; padding-bottom:26px;}
+.history .left div h2{font-size:12px; color:#b89f7a; font-family:"微软雅黑";}
+.history .left p{font-size:12px; color:#707070; line-height:25px; margin-top:27px;}
+
+.history .centre{float:left; width:324px; padding-right:27px;}
+.history .centre div{background:#fff; padding-top:42px; padding-bottom:41px; text-align:center; border:1px solid #dddddd;}
+.history .centre div h1{font-size:36px; color:#525252; padding-bottom:26px;}
+.history .centre div h2{font-size:12px; color:#b89f7a; font-family:"微软雅黑";}
+.history .centre p{font-size:12px; color:#707070; line-height:25px; margin-top:27px;}
+
+.history .bottom{float:left; width:324px;}
+.history .bottom div{background:#fff; padding-top:42px; padding-bottom:41px; text-align:center; border:1px solid #dddddd;}
+.history .bottom div h1{font-size:36px; color:#525252; padding-bottom:26px;}
+.history .bottom div h2{font-size:12px; color:#b89f7a; font-family:"微软雅黑";}
+.history .bottom p{font-size:12px; color:#707070; line-height:25px; margin-top:27px;}
+
+.warpincident{width:100%;}
+.incident{width:1026px; margin:0 auto; padding-top:65px; padding-bottom:100px;}
+.incident .world h1{font-size:24px; font-family:"微软雅黑"; color:#525252; height:88px; line-height:88px; width:156px; text-align:center; border-bottom:1px solid #dddddd; margin-left:435px; margin-bottom:61px;}
+.incident .world p{font-size:16px; font-family:"微软雅黑"; color:#707070; line-height:41px; padding-left:176px;}
+
+.incident .memorabilia h1{font-size:24px; font-family:"微软雅黑"; color:#525252; height:88px; margin-top:71px; line-height:88px; text-align:center; margin-bottom:61px; background:url(../images/img_03.gif) no-repeat center 85px;}
+.incident .memorabilia p{font-size:16px; font-family:"微软雅黑"; color:#707070; line-height:29px; padding-left:176px;}
+
+.incident .honour h1{font-size:24px; font-family:"微软雅黑"; color:#525252; height:88px; margin-top:71px; line-height:88px; text-align:center; margin-bottom:61px; background:url(../images/img_03.gif) no-repeat center 85px;}
+.incident .honour p{font-size:16px; font-family:"微软雅黑"; color:#707070; line-height:41px; padding-left:176px;}

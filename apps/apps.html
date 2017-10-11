@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>星巴克</title>
+<link rel="stylesheet" type="text/css" href="../common/css/base.css">
+<link rel="stylesheet" type="text/css" href="../common/css/header.css">
+<script type="text/javascript" src="../common/js/jquery.min.js"></script>
+<script type="text/javascript" src="../common/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../common/js/jquery.simplesidebar.js"></script>
+<link rel="stylesheet" type="text/css" href="css/apps.css">
+<!--从下边开始写-->
+</head>
+<body style="overflow-x:hidden;">
+<div class="top"><a href="../home/home.html" class="pic"><img src="../common/images/bg_03.gif" width="67" height="64" /></a><p>星享俱乐部 <br /><a href="../subpage/Login sub.html">登录</a>或<a href="../subpage/enter.html">注册</a></p></div>
+<div class="toolbar">
+	<div id="open-sb" class="menu-button menu-left"></div>
+</div>
+<section class="sidebar">
+	<div class="subNav"><h5><a href="../store/store.html">星巴克门店</a></h5>
+	</div>
+	<div class="subNav"><a href="../home/home.html"><h6> 首页</h6></a></div>
+	<div class="subNav"><h6 class="bg">新品推荐</h6></div>
+	<ul class="navContent">
+		<li><a href="../new diet/new diet.html">星巴克焕新食品</a></li>
+        <li><a href="../nts/nts.html">当季新品</a></li>
+	</ul>
+	<div class="subNav"><a href="../club/club.html"><h6>星享俱乐部</h6></a>
+	</div>
+	<div class="subNav"><a href="apps.html"><h6>星巴克移动应用</h6></a>
+	</div>
+    <div class="subNav"><a href="../gift/gift.html"><h6>星礼卡</h6></a>
+    </div>
+	<div class="subNav"><h6 class="bg">咖啡文化</h6>
+	</div>
+	<ul class="navContent">
+		<li><a href="../cultural/cultural.html">咖啡文化</a></li>
+		<li><a href="../selected/selected.html">星巴克甄选™咖啡</a></li>
+		<li><a href="../brewing/brewing.html">如何冲泡咖啡</a></li>
+	</ul>
+	<div class="subNav"><h6 class="bg">饮品美食</h6>
+	</div>
+	<ul class="navContent">
+		<li><a href="../drink/drink.html">饮品</a></li>
+		<li><a href="../food/food.html">星巴克美食</a></li>
+		<li><a href="../coffee/coffee.html">星巴克咖啡</a></li>
+		<li><a href="../VIA/VIA.html">星巴克VIA免煮咖啡</a></li>
+        <li><a href="../teavana/teavana.html">茶瓦纳™</a></li>
+	</ul>
+	<div class="subNav"><h6 class="bg">关于我们</h6></div>
+	<ul class="navContent">
+		<li><a href="../news/news.html">企业新闻</a></li>
+		<li><a href="../mission/mission.html">我们的使命和价值观</a></li>
+		<li><a href="../duty/duty.html">星巴克责任</a></li>
+		<li><a href="../affiliate/affiliate.html">加入星巴克</a></li>
+        <li><a href="../China/China.html">星巴克在中国</a></li>
+		<li><a href="../Historical review/Historical review.html">历史回顾</a></li>
+	</ul>
+	<div class="subNav"><h6 class="bg">帮助中心</h6></div>
+	<ul class="navContent">
+		<li><a href="../question/question.html">常见问题</a></li>
+		<li><a href="../contact us/contact us.html">联系我们</a></li>
+		<li><a href="../Terms of use/Terms of use.html">使用条款</a></li>
+		<li><a href="../conceal/conceal.html">隐私权政策</a></li>
+	</ul>
+</section>
+<script type="text/javascript">
+$( document ).ready(function() {
+	$( '.sidebar' ).simpleSidebar({
+		settings: {
+			opener: '#open-sb',
+			wrapper: '.wrapper',
+			animation: {
+				duration: 500,
+				easing: 'easeOutQuint'
+			}
+		},
+		sidebar: {
+			align: 'left',
+			width: 270,
+			closingLinks: 'a',
+		}
+	});
+});
+</script>
+
+<script type="text/javascript">
+$(function(){
+$(".subNav").click(function(){
+			// 修改数字控制速度， slideUp(500)控制卷起速度
+			$(this).next(".navContent").slideToggle(500);
+	})	
+})
+</script>
+<div class="banner_bg">
+   <div class="banner"></div>
+</div>
+<div class="content">
+   <h2>这里有全新的星巴克中国官方应用！</h2>
+   <ul>
+      <li>
+         <span>开启星巴克移动支付</span>
+         <p>将星礼卡关联至星享俱乐部帐户，便可直接从手机进行支</p>
+         <p>付、查看消费记录及管理卡片。</p>
+      </li>
+      <li class="special">
+         <span>星享俱乐部</span>
+         <p>动星卡，个性选择。在手机应用中绑定您的星享卡，随时</p>
+         <p>随地查看您的星享等级、星星数量以及星享好礼。</p>
+      </li>
+      <li>
+         <span>管理星享卡</span>
+         <p>款款星卡，随心呈现。在星巴克消费时，请出示并请我们的</p>
+         <p>星级咖啡师扫描您星巴克手机应用上的星享卡，然后您的消</p>
+         <p>费记录将会直接被记录到对应的账户中。</p>
+      </li>
+      <li class="special">
+         <span>查找星门店</span>
+         <p>快速找到离您最近的星巴克门店，了解门店营业时间，并接</p>
+         <p>收门店精确位置。</p>
+      </li>
+      <li>
+         <span>实时了解星消息</span>
+         <p>实时接收星巴克最新的产品及促销信息。</p>
+      </li>
+   </ul>
+</div>
+<div class="store">
+   <h2>马上拥有全新星巴克手机应用</h2>
+   <h3>星巴克手机应用目前在Apple App Store和以下安卓平台均有下载：</h3>
+   <ul>
+      <li><a href="#">应用宝</a></li>
+      <li><a href="#">安卓市场</a></li>
+      <li><a href="#">小米商店</a></li>
+      <li><a href="#">360手机助手</a></li>
+      <li><a href="#">百度手机助手</a></li>
+      <li><a href="#">魅族</a></li>
+      <li><a href="#">豌豆荚安装</a></li>
+      <li><a href="#">安智</a></li>
+      <li><a href="#">91手机助手</a></li>
+   </ul>
+</div>
+<div class="bottom clearfix">
+   <div class="left">
+      <p>如果你有任何问题，请查看常见问题</p>
+      <a href="../question/question.html">常见问题</a>
+   </div>
+   <div class="right">
+      <p>也可以直接与我们联系</p>
+      <a href="../contact us/contact us.html">联系我们</a>
+   </div>
+</div>
+<iframe src="../common/footer.html" scrolling="no" height="138" marginheight="0" marginwidth="0" frameborder="0" width="100%">
+</iframe>
+</body>
+</html>

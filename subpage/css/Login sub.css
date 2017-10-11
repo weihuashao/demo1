@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+.background{width:100%; height:1398px; background:url(../images/Login%20sub_01.jpg) repeat-x center top, url(../images/Login%20sub_02.jpg) no-repeat right 4px;}
+.background .main{width:740px; margin:0 auto; padding-top:58px;}
+.background .main h2{height:142px; line-height:142px; text-align:center; background:url(../images/Login%20sub_10.jpg) no-repeat center bottom; font-size:40px; color:#4e4e4e;}
+.background .main>p{height:122px; line-height:122px; text-align:center; font-size:18px; color:#838383;}
+.background .main form{background:#f2f2f2; padding:57px 160px 55px 160px;}
+.background .main form p{line-height:22px; font-size:16px; color:#838383;}
+.background .main form p label{height:45px; line-height:45px; font-size:14px; color:#4e4e4e;}
+.background .main form p input[type="text"],.background .box form p input[type="password"]{width:418px; height:40px; line-height:40px; border:1px solid #dddddd; margin-bottom:22px;}
+.background .main form p.next{line-height:45px; font-size:12px; color:#4e4e4e; position:relative; padding-left:25px; padding-bottom:29px;}
+.background .main form p.next input[type="checkbox"]{width:20px; height:20px; background:#dedede; border:1px solid #a5a5a5; position:absolute; left:1px; top:14px;}
+.background .main form p.proving{line-height:25px; font-size:14px; color:#4e4e4e; margin-bottom:3px;}
+.background .main form ul{margin-bottom:55px; height:50px;}
+.background .main form ul li{float:left; background:#e8e8e8; height:38px; padding-top:12px; text-align:center;}
+.background .main form ul li:last-child{padding-top:0; margin-left:20px;}
+.background .main form p input[type="submit"]{width:416px; height:46px; line-height:46px; text-align:center; border:2px solid #b89f7a; background:#f2f2f2; cursor:pointer;}
+.background .main form p.forget{width:420px; height:81px; line-height:81px; text-align:center;}
+.background .main form p.forget a{font-size:12px; color:#b89f7a;}
+.background .main form p.or{height:41px; line-height:41px; padding-left:199px; font-size:12px; color:#dfdfdf; background:url(../images/Login%20sub_11.jpg) no-repeat left center, url(../images/Login%20sub_11.jpg) no-repeat 231px center; margin-bottom:31px;}
+.background .main form p.found{width:416px; height:46px; line-height:46px; text-align:center; font-size:12px; color:#6a6a6a; border:2px solid #6a6a6a; margin-bottom:39px;}
+.background .main form p.center{text-align:center; margin-bottom:16px;}
+.background .main form p.center a{font-size:14px; color:#b89f7a;}

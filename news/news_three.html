@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>星巴克</title>
+<link rel="stylesheet" type="text/css" href="../common/css/base.css">
+<link rel="stylesheet" type="text/css" href="../common/css/header.css">
+<script type="text/javascript" src="../common/js/jquery.min.js"></script>
+<script type="text/javascript" src="../common/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../common/js/jquery.simplesidebar.js"></script>
+<link rel="stylesheet" type="text/css" href="css/news_3.css">
+<!--从下边开始写-->
+</head>
+<body style="overflow-x:hidden;">
+<div class="top"><a href="../home/home.html" class="pic"><img src="../common/images/bg_03.gif" width="67" height="64" /></a>
+  <p>星享俱乐部 <br />
+  <a href="../subpage/Login sub.html">登录</a>或<a href="../subpage/enter.html">注册</a></p></div>
+<div class="toolbar">
+  <div id="open-sb" class="menu-button menu-left"></div>
+</div>
+<section class="sidebar">
+  <div class="subNav">
+    <h5><a href="../store/store.html">星巴克门店</a></h5>
+  </div>
+  <div class="subNav"><a href="../home/home.html">
+    <h6> 首页</h6>
+    </a></div>
+  <div class="subNav">
+    <h6 class="bg">新品推荐</h6>
+  </div>
+  <ul class="navContent">
+    <li><a href="../new diet/new diet.html">星巴克焕新食品</a></li>
+    <li><a href="../nts/nts.html">当季新品</a></li>
+  </ul>
+  <div class="subNav"><a href="../club/club.html">
+    <h6>星享俱乐部</h6>
+    </a> </div>
+  <div class="subNav"><a href="../apps/apps.html">
+    <h6>星巴克移动应用</h6>
+    </a> </div>
+  <div class="subNav"><a href="../gift/gift.html">
+    <h6>星礼卡</h6>
+    </a> </div>
+  <div class="subNav">
+    <h6 class="bg">咖啡文化</h6>
+  </div>
+  <ul class="navContent">
+    <li><a href="../cultural/cultural.html">咖啡文化</a></li>
+    <li><a href="../selected/selected.html">星巴克甄选™咖啡</a></li>
+    <li><a href="../brewing/brewing.html">如何冲泡咖啡</a></li>
+  </ul>
+  <div class="subNav">
+    <h6 class="bg">饮品美食</h6>
+  </div>
+  <ul class="navContent">
+    <li><a href="../drink/drink.html">饮品</a></li>
+    <li><a href="../food/food.html">星巴克美食</a></li>
+    <li><a href="../coffee/coffee.html">星巴克咖啡</a></li>
+    <li><a href="../VIA/VIA.html">星巴克VIA免煮咖啡</a></li>
+    <li><a href="../teavana/teavana.html">茶瓦纳™</a></li>
+  </ul>
+  <div class="subNav">
+    <h6 class="bg">关于我们</h6>
+  </div>
+  <ul class="navContent">
+    <li><a href="news.html">企业新闻</a></li>
+    <li><a href="../mission/mission.html">我们的使命和价值观</a></li>
+    <li><a href="../duty/duty.html">星巴克责任</a></li>
+    <li><a href="../affiliate/affiliate.html">加入星巴克</a></li>
+    <li><a href="../China/China.html">星巴克在中国</a></li>
+    <li><a href="../Historical review/Historical review.html">历史回顾</a></li>
+  </ul>
+  <div class="subNav">
+    <h6 class="bg">帮助中心</h6>
+  </div>
+  <ul class="navContent">
+    <li><a href="../question/question.html">常见问题</a></li>
+    <li><a href="../contact us/contact us.html">联系我们</a></li>
+    <li><a href="../Terms of use/Terms of use.html">使用条款</a></li>
+    <li><a href="../conceal/conceal.html">隐私权政策</a></li>
+  </ul>
+</section>
+<script type="text/javascript">
+$( document ).ready(function() {
+	$( '.sidebar' ).simpleSidebar({
+		settings: {
+			opener: '#open-sb',
+			wrapper: '.wrapper',
+			animation: {
+				duration: 500,
+				easing: 'easeOutQuint'
+			}
+		},
+		sidebar: {
+			align: 'left',
+			width: 270,
+			closingLinks: 'a',
+		}
+	});
+});
+</script> 
+<script type="text/javascript">
+$(function(){
+$(".subNav").click(function(){
+			// 修改数字控制速度， slideUp(500)控制卷起速度
+			$(this).next(".navContent").slideToggle(500);
+	})	
+})
+</script> 
+<!--从这一部分开始写-->
+<div class="banner"></div>
+<div class="main">
+<ul>
+	<li><a href="../subpage/news_sub.html">
+    	<p>2015-06-12</p>
+        <p>北京三里屯太古里旗舰店</p>
+        <p>位于北京三里屯太古里的中心区域，中国当前最富有都市生活气息的商圈之一，这家门店“兼收并蓄、不拘一格”的设计令人眼前一亮。一楼流畅宽敞的吧台设计展现了外带咖啡的明快活力节奏；通透的二楼则与熙熙攘攘的室外形成趣味盎然的对比。坐在沿窗的长条吧台桌和低矮别致的原木桌椅边，透过落地玻璃窗，广场上的人群和风景一览无遗，从现代都市年轻人的聚汇之处和各种文化流动变换的场景，感受焕然的城市活力。室内，却是一片雅致惬意的绿洲，提供人们驻足小憩、朋友聚会、共享美味的别致空间。</p>
+    </a></li>
+    <li><a href="../subpage/news_sub.html">
+    	<p>2015-06-11</p>
+        <p>滴滴精妙，美味绝伦：星巴克三款浓缩咖啡饮品，创造完美秋日！</p>
+        <p>随着立秋的到来，秋天正一点点靠近。经历了一个夏天的热闹和喧哗，此刻不妨静下心来、细细品味这个季节的深沉，一如品尝浓郁香醇的星巴克咖啡。深谙粉丝心意的星巴克，在这一季推出了三款诱人的浓缩咖啡饮品，有层次分明、充满浪漫气息的星巴克经典“焦糖玛奇朵”；首次全面展示星巴克精湛拿铁拉花技艺的“特浓拿铁”；还有添加了全新的咖啡奶油的“啡常冰摩卡”。每一款都以星巴克优质浓缩咖啡（Espresso）为精髓，给人美妙的口感和意犹未尽的体验。</p>
+    </a></li>
+    <li><a href="../subpage/news_sub.html">
+    	<p>2015-03-23</p>
+        <p id="h2">星巴克蝉联怡安翰威特“中国最佳雇主”</p>
+    </a></li>
+    <li><a href="../subpage/news_sub.html">
+    	<p>2015-04-29</p>
+        <p>梦想那么大，我想要高飞</p>
+        <p>在江西做过流水线工人，在北京做过大厦保安，回贵州老家开过出租，经历了人生的多重际遇但仍处在青春年华的梁栋又选择回到了北京。曾向往的打工生活，在奔波中瓦解成两点一线：一端是游移不定的打工城市，一端是远离故土的居无定所。不想轻易妥协回家务农，但在偌大城市安家又遥遥无期，梁栋觉得未来很迷茫—留不下的城市，回不去的乡土，何去何从？</p>
+    </a></li>
+    
+    <li><a href="../subpage/news_sub.html">
+    	<p>2015-04-22</p>
+        <p>10万顾客携手星巴克，地球日“出一杯之力”</p>
+        <p>2015年4月22日世界地球日，对星巴克北京嘉里中心旗舰店的伙伴Aim来说，这是非常忙碌的一天，从9点到12点，她和她的小伙伴们一共为自带随行杯的顾客奉上了200多杯滴滤咖啡，感谢他们的环保行为，从磨豆、放滤纸、机器自动淋热水、滴滤入恒温桶，再到一杯杯新鲜烹煮的滴滤咖啡，一气呵成。今天，星巴克在中国大陆地区发起的“出一杯之力，用咖啡感谢你”活动吸引了众多顾客自带随行杯来门店喝咖啡。截止到当天中午12点，星巴克在中国各地门店共送出了超过10万杯新鲜滴滤咖啡。</p>
+    </a></li>
+    </ul>
+    <p><a href="news.html">《</a><a href="news.html" >1</a><a href="news_two.html"  >2</a><a href="news_three.html" class="hover">3</a><a href="news_three.html" >》</a></p>
+</div>
+<iframe src="../common/footer.html" scrolling="no" height="138" marginheight="0" marginwidth="0" frameborder="0" width="100%"> </iframe>
+</body>
+</html>

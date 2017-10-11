@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+.banner_bg{width:100%; background:url(../images/china_01.jpg) repeat-x center top, url(../images/china_02.jpg) no-repeat center 334px;}
+.banner_bg .banner{width:1026px; height:568px; padding-top:113px; margin:0 auto; position:relative;}
+.banner_bg .banner a{display:block; width:33px; height:21px; line-height:21px; text-align:center; position:absolute; right:-56px; top:40px; background:#47474a; font-size:12px; color:#c5c5c6;}
+.banner_bg .banner span{display:block; height:27px; line-height:27px; text-align:center; font-size:12px; color:#b89f7a;}
+.banner_bg .banner p{line-height:60px; font-size:36px; color:#525252; text-align:center;}
+.banner_bg .banner p:last-child{line-height:57px; font-size:16px; color:#707070;}
+.develop_bg{width:100%; padding-top:90px; padding-bottom:100px; background:#eeeeee;}
+.develop_bg .develop{width:1026px; margin:0 auto;}
+.develop_bg .develop ul li{float:left; width:324px; margin-right:27px;}
+.develop_bg .develop p.box{width:322px; height:126px; line-height:41px; text-align:center; padding-top:30px; border:1px solid #dddddd; background:#fff; font-size:12px; color:#b89f7a; margin-bottom:26px;}
+.develop_bg .develop p.box span{display:block; line-height:58px; font-weight:bold; font-size:36px; color:#525252;}
+.develop_bg .develop p{line-height:26px; font-size:12px; color:#707070;}
+.background{width:1026px; padding-top:77px; padding-bottom:69px; margin:0 auto;}
+.background span{display:block; height:36px; line-height:36px; text-align:center; font-size:12px; color:#b89f7a;}
+.background h2{height:57px; text-align:center; padding-top:13px; background:url(../images/China_05.jpg) no-repeat center bottom; font-size:24px; color:#525252; margin-bottom:68px;}
+.background p{line-height:28px; font-size:16px; color:#707070; margin-bottom:13px;}
+.image{width:100%; height:405px; background:url(../images/china_03.jpg) no-repeat center top; margin-bottom:136px;}
+.bottom{width:676px; margin:0 auto; padding-bottom:102px; padding-left:175px; padding-right:175px;}
+.bottom h2{height:61px; line-height:61px; text-align:center; margin-bottom:29px; font-size:25px; color:#525252;}
+.bottom p{line-height:29px; font-size:16px; color:#707070;}
+.bottom p.special{height:204px; padding-left:350px; padding-top:176px; background:url(../images/china_05.jpg) no-repeat 350px 176px; font-size:16px; line-height:48px; position:relative;}
+.bottom p.special img{position:absolute; left:-175px; top:41px;}
